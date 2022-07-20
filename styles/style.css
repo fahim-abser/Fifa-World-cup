@@ -59,8 +59,6 @@ header {
     color: white;
 }
 
-
-
 .button i {
     margin-left: 5px;
 }
@@ -184,7 +182,6 @@ header {
     background-color: #dd000085;
 }
 
-
 /*---- Footer styles----*/
 footer {
     background-color: #161616;
@@ -258,8 +255,6 @@ hr {
 
 /*---- Small devices ----*/
 @media (max-width: 576px) {
-
-
     body {
         width: 100%;
     }
@@ -269,7 +264,6 @@ hr {
         margin: 0 auto;
         margin: 20px;
     }
-
 
     header {
         padding-top: 10px;
@@ -281,7 +275,6 @@ hr {
         position: relative;
         left: 120px;
     }
-
 
     .header-description h1 {
         font-size: 23px;
@@ -304,13 +297,11 @@ hr {
         display: block;
     }
 
-
     .fixed-menu {
         background-color: white;
         width: 60%;
         padding-left: 220px;
     }
-
 
     .blog-section {
         display: block;
@@ -332,7 +323,6 @@ hr {
         border-radius: 8px;
     }
 
-
     .footer-item ul {
         display: block;
     }
@@ -345,9 +335,6 @@ hr {
     .footer-link {
         padding: 5px 0 5px 0;
     }
-
-
-
 }
 
 /* Medium devices */
@@ -355,14 +342,59 @@ hr {
     .container {
         max-width: 992px;
         margin: 10px;
+        display: flex;
     }
 
     .header-img {
-        padding-top: 250px;
+        padding-top: 100px;
         padding-left: 55px;
+        position: relative;
+        top: 22px;
     }
 
     header {
         display: block;
     }
-}
+
+    .header-description h1 {
+        font-size: 45px;
+    }
+
+    .button {
+        margin-bottom: 55px;
+    }
+
+    .fixed-menu li {
+        list-style: none;
+    }
+
+    .fixed-menu ul {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .blog-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .btn {
+        display: block;
+        margin-left: 350px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .footer-item {
+        margin-left: -250px;
+    }
