@@ -15,7 +15,7 @@
 
 header {
     display: flex;
-    background-color: #161616;
+    background-color: rgb(51, 28, 28);
     border-radius: 30px;
     padding: 0 5%;
 }
@@ -50,17 +50,23 @@ header {
 
 .button {
     font-size: 20px;
-    line-height: 23px;
     text-align: center;
+    line-height: 20px;
     border-radius: 5px;
     border: none;
     padding: 10px 30px;
     background-color: #DD0000;
+    transition: all 1s ease-in;
     color: white;
 }
 
 .button i {
     margin-left: 5px;
+}
+
+.button:hover {
+    width: 300px;
+    background-color: #c4cc5b85;
 }
 
 /*----Main styles----*/
@@ -73,7 +79,7 @@ header {
 .fixed-menu {
     width: 280px;
     height: 280px;
-    background-color: #161616;
+    background-color: rgb(51, 28, 28);
     border-radius: 8px;
 }
 
@@ -84,6 +90,7 @@ header {
     align-items: center;
     gap: 20px;
     padding: 40px;
+    list-style-type: none;
 }
 
 .fixed-menu a {
@@ -184,7 +191,7 @@ header {
 
 /*---- Footer styles----*/
 footer {
-    background-color: #161616;
+    background-color: rgb(51, 28, 28);
     padding: 5%;
     margin-top: 100px;
 }
@@ -204,7 +211,7 @@ hr {
 
 .footer {
     text-align: center;
-    background-color: #161616;
+    background-color: rgb(51, 28, 28);
 }
 
 .footer h3 {
