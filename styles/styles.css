@@ -120,51 +120,55 @@ header {
 
 .blog {
     box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+
+
 }
 
-.image img {
-    width: 100%;
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 55px 10px 30px 10px;
 }
 
-.text {
-    padding: 15px;
+span {
+    padding: 0 19px 0 19px;
+    padding-top: 15px;
+    font-weight: bold;
 }
 
-.text h3 {
+.blog-info {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.blog-info rgba(0, 0, 0, 0.692) color: rgba(0, 0, 0, 0.623);
+}
+
+
+
+
+/* text h3 {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     color: #161616;
     margin-top: 10px;
-}
+} */
 
-.second-button {
-    display: block;
-    padding: 2px 15px;
-    background-color: #fff;
-    border: 1px solid rgb(71, 9, 9);
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 24px;
-}
 
-.blog-info {
-    display: flex;
-    gap: 40px;
-    margin-top: 10px;
-}
 
-.blog-info p {
+.blog-info {}
+
+/* .blog-info p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: rgba(22, 22, 22, 0.7);
-}
+} */
 
-.blog-info p i {
-    margin-right: 8px;
-}
+
 
 .btn {
     display: none;
